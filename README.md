@@ -56,14 +56,20 @@ Frontend	HTML5, Jinja2 (Bootstrap supported)
 **📁 Project Structure**
 
 📦 flood-prediction-alert/
-│
-├── app.py                 # Flask main application logic
-├── check_model.py         # Separate script to test flood model
-├── flood_model.pkl        # Trained ML model (logistic regression or similar)
-├── flood_data.csv         # Historical weather and flood data
-├── user_data.csv          # List of users and their city details
-├── templates/             # HTML templates for UI (home, alert, report)
-├── static/                # Optional: CSS, JS, image files
+# Flask main application logic
+├── app.py  
+# Separate script to test flood model
+├── check_model.py  
+ # Trained ML model (logistic regression or similar)
+├── flood_model.pkl    
+# Historical weather and flood data
+├── flood_data.csv    
+# List of users and their city details
+├── user_data.csv  
+# HTML templates for UI (home, alert, report)
+├── templates/ 
+ # Optional: CSS, JS, image files
+├── static/       
 
 **📸 Key Outputs
 ✅ No Flood Detected:**
